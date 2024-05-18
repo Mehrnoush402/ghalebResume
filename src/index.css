@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-linear-gradient-orange{
+    position: relative;
+
+}
+
+.bg-linear-gradient-orange::before{
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom,white 40%,orange 70%);
+} */
