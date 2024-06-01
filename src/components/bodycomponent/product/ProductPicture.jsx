@@ -109,10 +109,7 @@ if (loginUser?.id) {
   // }, [calbackBoolean])
 
 
-  const Delete=async()=>{//for every update you dont need to get it of batabase at first time because you have id &  can access to it with id
-   
-    // const updatedData= await updateProduct({...productInfo,isAddedInCart:false},keyid)
-    // dispatch({type:"update",data:updatedData.data})
+  const Delete=async()=>{//for every update you dont need to get it of database at first time because you have id &  can access to it with id
     const deleteIndex=loginUser?.choiceList.findIndex((item)=>{return item.id==productData?.id})//for delete choicelist in user
     loginUser?.choiceList.splice(deleteIndex,1)
     await updateUser(loginUser,loginUser?.id).then(result=>{

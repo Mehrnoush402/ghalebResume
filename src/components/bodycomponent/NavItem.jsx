@@ -91,14 +91,6 @@ const NavItem = ({parentNavItemClass,firstNavItemClass,secoundNavItemClass,hambe
     }, [loginUser?.choiceList])
     
     
-
-    // const onMouseUser=()=>{//for hover on user.name login
-    //   setStatus(true)
-    // }
-
-    // const outMouseUser=()=>{//for leave hover on user.name login
-    //   setStatus(false)
-    // }
     //  useEffect(() => {//for toggle log out div on hover user.name login
     //    const handleToggle=()=>{
     //     status?setToggele("visible"):setToggele("hidden")

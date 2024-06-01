@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 
 
 const Modal = ({children,isOpen,handleOpen,isCartOnNav,classProps,classModal,classModalBody,keyid,sizeIndex,headerModalClass,productData}) => {
-  const{addListId,setAddListId,inputValue,setInputValue,sizeList,totalCounterCost,setTotalCounterCost,setColor,color,addList,setAddList,list}=useContext(DataText)
+  const{inputValue,setInputValue,sizeList,totalCounterCost,setTotalCounterCost,setColor,color,list}=useContext(DataText)
   const[state,dispatch]=useReducer(updateReducer,list)
   const [productInfo, setProductInfo] = useState(productData)//when modal becomes open set productData of a data that comes of props on state
   const{loginUser,setLoginUser}=useContext(loginData)
@@ -28,7 +28,7 @@ const Modal = ({children,isOpen,handleOpen,isCartOnNav,classProps,classModal,cla
    }, [productData])
 
  
-  const updateCart=async()=>{//for every update you dont need to get it of batabase at first time because you have id &  can access to it with id
+  const updateCart=async()=>{//for every update you dont need to get it of database at first time because you have id &  can access to it with id
     if (loginUser?.id) {
       if (inputValue==0 || color == -1 ) {
         Swal.fire({

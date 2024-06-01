@@ -15,9 +15,6 @@ const SignIn = () => {
   const {loginUser,setLoginUser}=useContext(loginData)
   const [enterUserInLocal, setEnterUserInLocal] = useState({})
   const validationSchema=Yup.object({
-    // firstName: Yup.string()
-    //   .max(15, 'Must be 15 characters or less')
-    //   .required('Required'),
     email: Yup.string().email('Invalid email address').required('Required'),
     password: Yup.string()
       .min(8,'Must be 8 characters or more')
@@ -75,43 +72,6 @@ const SignIn = () => {
       setSubmitting(false)
      
       }}
-     
-      // onSubmit={(values, { setSubmitting, setFieldError }) => {
-      //   // setTimeout(() => {
-      //   //   alert(JSON.stringify(values, null, 2));
-      //   //   setSubmitting(false);
-      //   // }, 400);
-      //    getUsers().then(result=>{
-      //       result.data.map(user=>{
-      //        if (user.email === values.email) {
-      //         if (user.password === values.password) {
-      //           alert("login successfully")
-      //           setLoginUser(user)
-      //           console.log("loginUser in sign in",loginUser);
-      //           console.log("user",user);
-      //           // setEnterUserInLocal(user)
-                
-      //           // localStorage.setItem("userInfo",JSON.stringify(user))//set localStorage at first time
-      //           navigate("/")
-                
-      //         }else{
-               
-      //           setFieldError('password', 'password is wrong');
-              
-      //         }
-              
-      //       }else if(values.email !== "" ||  user.email !== values.email){
-    
-      //         setFieldError('email', 'email is not already exit');
-              
-      //       }
-    
-      //     })
-      //   })
-      //   .catch(err =>console.log(err))
-        
-      //   setSubmitting(false);
-      // }}
 
        validationSchema={validationSchema}
     >

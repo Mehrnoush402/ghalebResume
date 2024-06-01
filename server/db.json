@@ -23,11 +23,11 @@
     {
       "id": "2f2f",
       "cost": 30,
-      "counterProduct": 2,
+      "counterProduct": 1,
       "material": "Organic Cotton, Fair Trade quality",
       "name": "Rounded neck - T shirt 100% Cotton",
       "productId": 3,
-      "size": "L",
+      "size": "M",
       "src": "https://i.im.ge/2024/01/23/YVGDxm.Rectangle-3.png"
     },
     {
@@ -73,7 +73,7 @@
     {
       "id": "ed55",
       "cost": 80,
-      "counterProduct": 1,
+      "counterProduct": 2,
       "material": "Organic Cotton, Fair Trade quality",
       "name": "Rounded neck - T shirt 100% Cotton",
       "productId": 8,
@@ -106,7 +106,28 @@
           "rate": 4
         }
       ],
-      "choiceList": []
+      "choiceList": [
+        {
+          "id": "ed55",
+          "cost": 80,
+          "counterProduct": 2,
+          "material": "Organic Cotton, Fair Trade quality",
+          "name": "Rounded neck - T shirt 100% Cotton",
+          "productId": 8,
+          "size": "L",
+          "src": "https://i.im.ge/2024/01/23/YVzwjf.Rectangle-8.png"
+        },
+        {
+          "id": "3ffe",
+          "cost": 20,
+          "counterProduct": 1,
+          "material": "Organic Cotton, Fair Trade quality",
+          "name": "Rounded neck - T shirt 100% Cotton",
+          "productId": 2,
+          "size": "M",
+          "src": "https://i.im.ge/2024/01/31/bNFIRh.Rectangle-2.png"
+        }
+      ]
     },
     {
       "id": "52bc",
@@ -216,6 +237,19 @@
       "email": "yt.@gmail.com",
       "password": "90909090",
       "copypassword": "90909090",
+      "choiceList": [],
+      "wishLists": [],
+      "rateStarsList": []
+    },
+    {
+      "id": "dabf",
+      "name": "parisa",
+      "family": "shahmorady",
+      "phone": "09876543321",
+      "address": "Esfahan,Khomeinyshahr,Beheshti Street,Mohammadi alley,",
+      "email": "pari.@gmail.com",
+      "password": "65656565",
+      "copypassword": "65656565",
       "choiceList": [],
       "wishLists": [],
       "rateStarsList": []
