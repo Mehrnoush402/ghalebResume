@@ -52,5 +52,8 @@ Click on Account in navbar->go to sign in page->click on create Account->go to r
 10-When you added one product to your cart ,you can see trash icon on top right corner of each product's picture.if you click on it,this product deleted of your choices in cart , and the items added and all prices in footer. 
 
 11-About the stars,stars rating in homepage is able to changes with your choice but in modals are stable and it is equal to the rating given by the user to each of the products on the home page. 
-12-When you click on account user name in home page,you can see log out name and when you click on it you can exit of this  app. 
+12-When you click on account user name in home page,you can see log out name and when you click on it you can exit of this  app.
+
+# important point:
+You can watch one video that is about this project in Record Resume.mp4 file.You must download it at first time,after that you can watch it.
 
