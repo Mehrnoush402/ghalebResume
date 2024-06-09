@@ -81,7 +81,7 @@ const NavItem = ({parentNavItemClass,firstNavItemClass,secoundNavItemClass,hambe
       let totals=0;
      if (loginUser?.id) {
       loginUser?.choiceList.map((item)=>{
-        totals+=item?.counterProduct
+        totals+=Number(item?.counterProduct)
       })
       setSum(totals)
      }
