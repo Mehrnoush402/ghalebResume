@@ -16,7 +16,6 @@ services:
     ports:
       - "3000:80"  # Adjust if your frontend runs on a different port
     volumes:
-      - ./src:/app/src  # Live-reloading support
       - /app/node_modules  # Avoid mounting node_modules from host
     depends_on:
       - backend
