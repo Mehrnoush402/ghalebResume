@@ -10,34 +10,10 @@ Currently, two official plugins are available:
 - # How to see the output of this web app? 
 
 1-Open terminal 
-
-2-Installation: 
-
-2-1:Vite -> (https://v3.vitejs.dev/guide/), 
-
-2-2:Tailwind-> (https://tailwindcss.com/docs/guides/create-react-app), 
-
-2-3:Formik-> (https://www.npmjs.com/package/formik), 
-
-2-4:Yup-> (https://www.npmjs.com/package/yup), 
-
-2-5:jason server -> (https://www.npmjs.com/package/json-server), 
-
-2-6:axios -> (https://www.npmjs.com/package/axios), 
-
-2-7:swal -> (https://www.npmjs.com/package/react-sweetalert2), 
-
-2-8:reduxtoolkit-> (https://redux-toolkit.js.org/introduction/getting-started) 
-
-3-Type: cd server-> Enter 
-
-4-Type: npm run start-> Enter 
-
-5-Open new Terminal 
-
-6-Type: npm run dev -> Enter 
-
-7-This page opens without any users at first time. You have two ways for work with it: 
+2-go to the folder where you cloned this project
+3-npm i
+4-npm run dev
+5-This page opens without any users at first time. You have two ways for work with it: 
 
 # Methode 1:
 Go to server folder in this repository-> in db. Json file you can see users Array, at the end of this file, choose one of them and go to your browser that this project is running, go to navbar Account click on it & type  user email & user password that you have chosen and click on sign in button, if you do correctly you can go to homepage and you will see your username instead of Account. 
